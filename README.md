@@ -7,7 +7,7 @@ This addin creates a documentation box in the currently open code page within th
 The documentation box contains the date and time. 
 The documention box looks like this:  
 
-'-----------------------------------------------------------------------------------------
+'-----------------------------------------------------------------------------------------  
 ' 08-04-2016 - 22:03:17 (mm/dd/yyyy)                                                      
 '                                                                                         
 '-----------------------------------------------------------------------------------------  
