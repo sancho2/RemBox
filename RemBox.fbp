@@ -1,0 +1,33 @@
+[Project]
+Version=3
+Description=Document line box
+Api=fb (FreeBASIC),win (Windows)
+Grouping=2
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Current=1
+1=Windows dll,fbc -s gui -dll -export
+Recompile=0
+Module=Module Build,fbc -c
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=1,2,3
+[File]
+1=RemBox.bas
+2=RemBox.rc
+3=RemBox.bi
+4=Res\RemBox.bmp
+[BreakPoint]
+1=
+3=
+[FileInfo]
+1=0,126,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,13,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
